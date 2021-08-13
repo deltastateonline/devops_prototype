@@ -1,7 +1,14 @@
 <?php
-echo "Hello world";
-echo " ", date('Y-m-d H:i:s');
-echo "\n";
+// Autoload files using the Composer autoloader.
+require_once __DIR__ . '/vendor/autoload.php';
 
-echo phpinfo();
+use Omo\DevopsPrototype\HelloWorld\Greetings;
+
+use Deltastateonline\Models;
+
+
+echo Greetings::sayHelloWorld() , "\n";
+echo Models\Product::calculate(12.6), "\n";
+echo Models\Warranty::calculate(3.90), "\n";
+
 ?>

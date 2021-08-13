@@ -1,0 +1,18 @@
+{
+    "name": "omo/devops_prototype",
+    "description": "devops prototype",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Omo\\DevopsPrototype\\": "src/",
+            "Deltastateonline\\": "src1/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Admin Deltastateonline",
+            "email": "joomla@deltastateonline.com"
+        }
+    ],
+    "require": {}
+}
