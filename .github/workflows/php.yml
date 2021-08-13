@@ -36,7 +36,7 @@ jobs:
       run: cat vendor/composer/autoload_psr4.php
 
     - name: List Composer
-      run: ls src1/Models
+      run: ls src1
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
