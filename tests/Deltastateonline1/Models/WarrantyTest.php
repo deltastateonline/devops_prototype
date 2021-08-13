@@ -1,6 +1,6 @@
 <?php
 
-namespace Deltastateonline\Models;
+namespace Deltastateonline1\Models;
 
 use PHPUnit\Framework\TestCase;
 

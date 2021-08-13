@@ -17,14 +17,14 @@
     ],
     "autoload-dev": {
         "psr-4": {
-            "Deltastateonline\\": "tests/Deltastateonline"
+            "Deltastateonline1\\": "tests/Deltastateonline1"
         }
     },
     "bin": ["bin/deltastateonline"],
     "require-dev": {
         "phpunit/phpunit": "^9.5"
     },
-    
+
     "scripts": {
         "test": "vendor/bin/phpunit"
     }
