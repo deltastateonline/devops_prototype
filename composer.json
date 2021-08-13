@@ -1,0 +1,31 @@
+{
+    "name": "omo/devops_prototype",
+    "description": "devops prototype",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {            
+            "Deltastateonline\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Admin Deltastateonline",
+            "email": "joomla@deltastateonline.com"
+        }
+    ],
+    "autoload-dev": {
+        "psr-4": {
+            "Deltastateonline\\": "tests/Deltastateonline"
+        }
+    },
+    "bin": ["bin/deltastateonline"],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+    
+}
