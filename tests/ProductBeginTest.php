@@ -1,10 +1,9 @@
 <?php
 
-namespace Deltastateonline;
 
 use PHPUnit\Framework\TestCase;
 
-class ProductNewTest extends TestCase {
+class ProductBeginTest extends TestCase {
 
     public function testProductCalculate(){
 
