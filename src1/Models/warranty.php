@@ -8,7 +8,7 @@ class Warranty{
     }
 
     public static function calculate($value) {
-        return $value * 0.5;
+        return $value * 0.6;
     }
     
 }

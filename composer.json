@@ -15,5 +15,13 @@
             "email": "joomla@deltastateonline.com"
         }
     ],
-    "require": {}
+    "autoload-dev": {
+        "psr-4": {
+            "Deltastateonline\\": "tests/Deltastateonline"
+        }
+    },
+    "bin": ["bin/deltastateonline"],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
 }
