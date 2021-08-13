@@ -4,9 +4,8 @@
     "type": "project",
     "license": "MIT",
     "autoload": {
-        "psr-4": {
-            "Omo\\DevopsPrototype\\": "src/",
-            "Deltastateonline\\": "src1/"
+        "psr-4": {            
+            "Deltastateonline\\": "src/"
         }
     },
     "authors": [
@@ -17,7 +16,7 @@
     ],
     "autoload-dev": {
         "psr-4": {
-            "Deltastateonline1\\": "tests/Deltastateonline1"
+            "Deltastateonline\\": "tests/Deltastateonline"
         }
     },
     "bin": ["bin/deltastateonline"],
