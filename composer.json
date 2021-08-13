@@ -2,6 +2,7 @@
     "name": "omo/devops_prototype",
     "description": "devops prototype",
     "type": "project",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Omo\\DevopsPrototype\\": "src/",
