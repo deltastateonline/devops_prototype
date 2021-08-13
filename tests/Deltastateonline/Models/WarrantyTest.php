@@ -9,7 +9,7 @@ class WarrantyTest extends TestCase {
     public function testWarrantyCalculate(){
 
         $fifty = \Deltastateonline\Models\Warranty::calculate(100);
-        $this->assertEquals($fifty , 50.0);
+        $this->assertEquals($fifty , 60.0);
     }
 
 }
